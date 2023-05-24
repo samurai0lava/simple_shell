@@ -12,7 +12,7 @@
 
 extern char **environ;
 
-/* Function prototypes */
+/* Functions prototypes */
 char *_getenv(const char *envar);
 int _execute(char **args);
 int _begin(char **args);
@@ -21,6 +21,7 @@ char **split_theline(char *theline);
 char *read_theline(void);
 void _loop(void);
 
+/* Constants */
 #define MAX_BUFFER_SIZE 1024
 
 /* Custom getline function */
