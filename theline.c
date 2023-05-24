@@ -48,11 +48,11 @@ char *read_theline(void)
 	{
 		if (theline != NULL && theline[0] == '\0')
 		{
-			exit(1);
+			exit(0);
 		}
 		else
 		{
-			exit(1);
+			exit(0);
 		}
 	}
 
