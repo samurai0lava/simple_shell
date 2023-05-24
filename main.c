@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point of the Shell program.
- *
+ *@argc: Number of arguments passed.
+ *@argv: Array of arguments passed.
  * Return: Always 0.
  */
 int main(int argc, char **argv)

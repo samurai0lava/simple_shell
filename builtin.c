@@ -80,5 +80,4 @@ int _execute(char **args)
 	}
 
 	return (_begin(args));
-}
 
