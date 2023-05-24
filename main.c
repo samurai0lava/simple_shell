@@ -25,7 +25,6 @@ void _loop(void)
 	int execstat;
 
 	do {
-		write(1, "simpleshell$ ", 13);
 		theline = read_theline();
 		cmdarg = split_theline(theline);
 		execstat = _execute(cmdarg);
