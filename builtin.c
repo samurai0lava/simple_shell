@@ -53,6 +53,12 @@ int _out(char **args)
 	return (0);
 }
 
+/**
+ * _execute - Execute a command.
+ * @args: The arguments of the command.
+ *
+ * Return: Result of the executed command.
+ */
 int _execute(char **args)
 {
 	int i;
